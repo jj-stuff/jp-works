@@ -1,0 +1,37 @@
+*{
+    text-decoration: none !important;
+    overflow: hidden;
+}
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+li{
+    padding: 3px;
+}
+
+a{
+    color: grey;
+}
+
+a:hover{
+    transition: 500ms;
+    color: white;
+}
+
+.active{
+    color: white;
+}
+.paimon{
+    width: 150px;
+}
+
+.container{
+    padding: 35px 100px 0px 100px;
+}
