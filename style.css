@@ -1,5 +1,6 @@
-html, body{
+body{
     background-color: darkolivegreen;
+    background-image: url(img/clouds.jpg);
 }
 
 h1{
