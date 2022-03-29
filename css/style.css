@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 *{
     text-decoration: none !important;
     overflow: hidden;
+    color: white;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 }
 
+:root{
+    --link-before: rgb(221, 221, 221);
+}
 
 body{
     background-color: black;
+    background-image: url(/img/cool-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -17,21 +31,37 @@ li{
 }
 
 a{
-    color: grey;
+    color: var(--link-before);
 }
 
 a:hover{
-    transition: 500ms;
+    transition: 150ms;
     color: white;
+    text-shadow: 0 0 5px white;
 }
 
 .active{
     color: white;
+    text-shadow: 0 0 5px white;
 }
+
 .paimon{
-    width: 150px;
+    width: 8rem;
+}
+
+#logo1{
+    width: 12rem;
 }
 
 .container{
-    padding: 35px 100px 0px 100px;
+    padding: 35px 100px 20px 100px;
+}
+
+.copyright {
+    padding: 10px;
+    margin: auto 0;
+  }
+
+.copyright span{
+    color: lightgrey;
 }
