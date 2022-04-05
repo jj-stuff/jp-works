@@ -15,11 +15,22 @@
     --link-before: rgb(221, 221, 221);
 }
 
+@supports (backdrop-filter: blur(0.5rem)) {
+    .blur{
+        backdrop-filter: blur(0.5rem);
+    }
+  }
+
 body {
     background-color: black;
-
+    background-image: url(/img/abstract.svg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+}
+
+section{
+    padding: 100px 30px;
 }
 
 h1 {
@@ -55,9 +66,8 @@ nav{
     width: 8rem;
 }
 
-#logo1 {
-    width: 12rem;
-    filter: invert();
+#paimonLogo {
+    width: 8rem;
 }
 
 .container {
@@ -72,3 +82,31 @@ nav{
 .copyright span {
     color: lightgrey;
 }
+
+.right-text{
+    text-align: right;
+}
+
+
+
+
+#RecentW{
+    padding-top: 8rem;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(60, 60, 60); 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
+  
