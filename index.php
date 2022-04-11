@@ -20,16 +20,14 @@
                 <div class="col-8">
                 </div>
                 <div class="col-4">
-                    <img src="img/proud.jpeg" alt="">
                 </div>
             </section>
             
             <section class="row bg-black bg-opacity-25" id='sao'>
-                <div class="col-7">
+                <div class="col-sm-12 col-md-7">
                     <img src="img/progressive.png" alt="cover" class="image">
                 </div>
-                <div class="col-5 text-right">
-                    <div class="d-none d-md-block">
+                <div class="col-5 text-right d-none d-md-block" style="position: relative;">
                         <h1>SAO</h1>
                         <h5>Sword Art Online: Alicization</h5>
                         <p class="text-white-50">
@@ -43,13 +41,13 @@
                             world. Kazuto can only vaguely recall a single name, Alice, which provokes a sense of unease
                             when mentioned in reality.
                         </p>
-                    </div>
+                        <a href="https://anilist.co/anime/124140/Sword-Art-Online-Progressive--Hoshinaki-Yoru-no-Aria/"
+                            target="_blank"><img src="img/anilist.svg" class="btn-right" width="150px"></a>
                 </div>
             </section>
 
-            <section class="row" id='airing'>
-                <div class="col-7 p-5" style="position: relative;">
-                    <div class="d-none d-md-block">
+            <section class="row bg-black" id='airing'>
+                <div class="col-7 p-5 d-none d-md-block" style="position: relative;">
                         <h1>Airing</h1>
                         <h5>Kaguya-sama: Love Is War: Ultra Romantic</h5>
                         <p class="text-white-50">
@@ -67,8 +65,7 @@
                             "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
                         </p>
                         <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
-                            target="_blank"><img src="img/anilist.svg" class="btn" width="150px"></a>
-                    </div>
+                            target="_blank"><img src="img/anilist.svg" class="btn-left" width="150px"></a>
                 </div>
                 <div class="col-sm-12 col-md-5">
                     <img src="img/kaguyasama_s3.jpg" class="image float-end">

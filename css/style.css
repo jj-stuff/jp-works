@@ -56,7 +56,7 @@ li {
     padding: 3px;
 }
 
-.btn {
+.btn-left {
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -65,13 +65,24 @@ li {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin: 50px;
+    margin: 0px 50px;
+}
+.btn-right {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 50px;
 }
 
 .image{
     width: 100%;
     height: auto;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 .nav-link{
@@ -140,7 +151,7 @@ li {
 }
 
 #airing{
-    background-image: url(../img/bg.gif);
+    background-repeat: no-repeat;
 }
 
 /* Scrollbar 0000000000000000000000000000000 */

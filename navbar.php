@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row p-3">
             <a href="" class="col-1">
-                    <img src="img/A-1_White.svg" id='logo' alt="logo" class="navbrand">
+                    <img src="img/A-1_White.svg" id='logo' alt="logo" class="navbar-brand d-none d-sm-inline mb-2">
             </a>
             <ul class="nav-links my-auto d-flex col-11">
                 <li class="nav-item "><a href="index" class="nav-link <?php echo $active['index']?>">Home</a></li>
