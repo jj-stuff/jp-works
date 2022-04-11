@@ -13,9 +13,8 @@
 
 <body>
     <div class="d-flex flex-column">
-
     <?php include 'navbar.html'?>
-    <div class="main">
+    <div>
         <section class="row" style="background-image: url(img/moon1920.jpg);">
             <div class="col-8">
             </div>
@@ -32,7 +31,7 @@
                 </p>
             </div>
             <div class="col-4 p-5">
-                <img src="img/clouds.jpg" height="500px">
+                <img src="img/kaguyasama_s3.jpg" height="500px">
             </div>
         </section>
         <section class="row bg-black bg-opacity-75">
