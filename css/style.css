@@ -22,7 +22,8 @@
   }
 
 body {
-    background-image: url(../img/stars.png);
+    background-color: white;
+    background-image: url(../img/stars.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
@@ -30,11 +31,11 @@ body {
 
 h1 {
     font-size: 90px;
-    font-weight: 300px;
+    font-weight: 400px;
 }
 
-section{
-    padding: 150px 30px;
+section {
+    padding: 150px 60px;
 }
 
 a {
@@ -55,7 +56,7 @@ li {
     padding: 3px;
 }
 
-button {
+.btn {
     border: none;
     padding: 15px 32px;
     text-align: center;
@@ -63,8 +64,14 @@ button {
     border-radius: 15px;
     position: absolute;
     bottom: 0;
-    left: 30px;
+    left: 0;
     margin: 50px;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    max-width: 700px;
 }
 
 .nav-link{
@@ -125,6 +132,16 @@ button {
     background-size: cover;
 }
 
+#sao{
+    background-image: url(../img/alice.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -90px 50px;
+}
+
+#airing{
+    background-image: url(../img/bg.gif);
+}
 
 /* Scrollbar 0000000000000000000000000000000 */
 

@@ -45,7 +45,7 @@
                     <button class="btn-primary">Anilist</button>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <img src="img/kaguyasama_s3.jpg" height="">
+                    <img src="img/kaguyasama_s3.jpg">
                 </div>
             </section>
             <section class="row bg-black bg-opacity-50">
