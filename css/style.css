@@ -22,15 +22,29 @@
   }
 
 body {
-    background-color: black;
-    background-image: url(../img/abstract.svg);
+    background-image: url(../img/stars.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 150%;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 300px;
 }
 
 section{
     padding: 150px 30px;
+}
+
+a {
+    color: var(--link-before);
+}
+
+a:hover{
+    transition: 150ms;
+    color: white;
+    text-shadow: 0 0 5px white;
 }
 
 h1 {
@@ -39,6 +53,18 @@ h1 {
 
 li {
     padding: 3px;
+}
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    margin: 50px;
 }
 
 .nav-link{
@@ -60,14 +86,11 @@ li {
 .active {
     color: white;
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgb(195, 195, 195);
 }
 
 .paimon {
     width: 8rem;
-}
-
-#logo {
-    width: 80px;
 }
 
 .container {
@@ -90,8 +113,22 @@ li {
     text-align: right;
 }
 
+/* ID's */
 
-::-webkit-scrollbar{
+#logo {
+    width: 80px;
+}
+
+#moon{
+    background-image: url(../img/moon1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Scrollbar 0000000000000000000000000000000 */
+
+  ::-webkit-scrollbar{
     width: 13px;
   }
   
