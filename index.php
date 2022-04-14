@@ -118,7 +118,6 @@
                 </div>
             </section>
 
-
         </div>
         <?php include 'footer.html'?>
     </div>
