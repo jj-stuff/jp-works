@@ -16,22 +16,67 @@
     <div class="overflow-hidden">
         <?php include 'navbar.php'?>
         <div>
-            <div id="particles-js"></div>
-            <section class="row bg-black bg-opacity-25">
-                <div class="col-8">
+
+            <section class="row bg-black">
+                <div class="row">
+                    <div class="col-5 d-none d-md-block"></div>
+                    <div class="col-7 text-right ps-5 d-none d-md-block position-relative">
+                        <h1>Shelter</h1>
+                        <h5>Music Video</h5>
+                        <p class="text-white-50">
+                            未来的シミュレーターの中で孤独に暮らす少女・凛（リン）は、
+                            毎日永遠の命が続く無限の美しいバーチャルリアリティーの世界で目を覚まし、タブレットを使ってシミュレーターを操作し、自分のための新世界を空想し創造しつづけている。しかし、現実世界の凛は実は昏睡状態にいて、その体は小さな宇宙船内のＶＲシミュレーター内に・・・
+
+                            Rin, a 17-year-old girl, lives inside a futuristic simulator in infinite,
+                            beautiful loneliness. Each day, she awakens in virtual reality to create a world for
+                            herself,
+                            yet in real life, Rin's comatose body floats through the universe, forever trapped inside a
+                            virtual simulation she will never wake up from...
+                        </p>
+                    </div>
                 </div>
-                <div class="col-4">
+                <div class="row p-5">
+                    <iframe width="560" height="615" src="https://www.youtube.com/embed/fzQ6gRAEoy0" class=""
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="row p-5 d-none d-md-block">
+                    <a href="https://anilist.co/anime/97731/Shelter" target="_blank"><img src="img/anilist.svg"
+                            width="50px"></a>
                 </div>
             </section>
 
-            <section class="row bg-black bg-opacity-25" id='sao'>
-                <div class="col-sm-12 col-md-7">
-                    <img src="img/progressive.png" alt="cover" class="image">
+            <div id="particles-js"></div>
+            <section class="row" id='sao'>
+                <div class="col-sm-12 col-md-5">
+                    <div id="sliderShow" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/progressive.png" alt="cover">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/progressive2.png" alt="cover">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/progressive3.png" alt="cover">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-5 text-right d-none d-md-block" style="position: relative;">
-                    <h1>SAO</h1>
-                    <h5>Sword Art Online: Alicization</h5>
-                    <p class="text-white-50">
+
+                <div class="col-7 text-right ps-5 d-none d-md-block position-relative">
+                    <h1>Sword Art Online</h1>
+                    <h5>Progressive</h5>
+                    <p class="text-grey">
                         The Soul Translator is a state-of-the-art full-dive interface which interacts with the
                         user's Fluctlight—the technological equivalent of a human soul—and fundamentally differs
                         from the orthodox method of sending signals to the brain. The private institute Rath aims to
@@ -43,12 +88,12 @@
                         when mentioned in reality.
                     </p>
                     <a href="https://anilist.co/anime/124140/Sword-Art-Online-Progressive--Hoshinaki-Yoru-no-Aria/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-right" width="150px"></a>
+                        target="_blank"><img src="img/anilist.svg" class="btn-right" width="120px"></a>
                 </div>
             </section>
 
             <section class="row bg-black" id='kaguya'>
-                <div class="col-7 p-5 d-none d-md-block" style="position: relative;">
+                <div class="col-7 p-5 d-none d-md-block position-relative">
                     <h1>Airing</h1>
                     <h5>Kaguya-sama: Love Is War: Ultra Romantic</h5>
                     <p class="text-white-50">
@@ -66,7 +111,7 @@
                         "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
                     </p>
                     <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-left" width="150px"></a>
+                        target="_blank"><img src="img/anilist.svg" class="btn-left" width="120px"></a>
                 </div>
                 <div class="col-sm-12 col-md-5">
                     <img src="img/kaguyasama_s3.jpg" class="image float-end">
