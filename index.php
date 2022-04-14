@@ -17,7 +17,8 @@
         <?php include 'navbar.php'?>
         <div>
             <div id="particles-js"></div>
-            <section class="row bg-black bg-opacity-25">
+
+            <section class="row bg-black bg-opacity-25 position-absolute">
                 <div class="col-8">
                 </div>
                 <div class="col-4">
@@ -28,7 +29,7 @@
                 <div class="col-sm-12 col-md-7">
                     <img src="img/progressive.png" alt="cover" class="image">
                 </div>
-                <div class="col-5 text-right d-none d-md-block" style="position: relative;">
+                <div class="col-5 text-right d-none d-md-block position-relative">
                     <h1>SAO</h1>
                     <h5>Sword Art Online: Alicization</h5>
                     <p class="text-white-50">
@@ -48,7 +49,7 @@
             </section>
 
             <section class="row bg-black" id='kaguya'>
-                <div class="col-7 p-5 d-none d-md-block" style="position: relative;">
+                <div class="col-7 p-5 d-none d-md-block position-relative">
                     <h1>Airing</h1>
                     <h5>Kaguya-sama: Love Is War: Ultra Romantic</h5>
                     <p class="text-white-50">
@@ -72,7 +73,6 @@
                     <img src="img/kaguyasama_s3.jpg" class="image float-end">
                 </div>
             </section>
-
 
         </div>
         <?php include 'footer.html'?>
