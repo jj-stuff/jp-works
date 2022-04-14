@@ -5,7 +5,7 @@
     // loop through each directory, check against the known directories, and add class   
     $directories = array("index", "work","about"); // set home as 'index', but can be changed based of the home uri
     foreach ($directories as $folder){
-    $active[$folder] = ($directory[0] == $folder)? "active":"noactive";
+    $active[$folder] = ($directory[0] == $folder)? "on":"noactive";
     }
 ?>
 

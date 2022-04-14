@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/starsil.svg">
+    <link rel="icon" href="img/starsil.svg" type="image/x-icon">
     <title>A-1 Pictures | フライドポテト</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -15,51 +15,83 @@
 <body>
     <div class="overflow-hidden">
         <?php include 'navbar.php'?>
-        <div>
-
-            <section class="row bg-black">
-                <div class="row">
-                    <div class="col-5 d-none d-md-block"></div>
-                    <div class="col-7 text-right ps-5 d-none d-md-block position-relative">
+        <main>
+            <div class="row position-relative overflow-hidden">
+                    <div class="col-5 position-absolute text-right ps-5 d-none d-md-block" id="shelter-info">
                         <h1>Shelter</h1>
                         <h5>Music Video</h5>
-                        <p class="text-white-50">
+                        <p class="text-white">
                             未来的シミュレーターの中で孤独に暮らす少女・凛（リン）は、
                             毎日永遠の命が続く無限の美しいバーチャルリアリティーの世界で目を覚まし、タブレットを使ってシミュレーターを操作し、自分のための新世界を空想し創造しつづけている。しかし、現実世界の凛は実は昏睡状態にいて、その体は小さな宇宙船内のＶＲシミュレーター内に・・・
-
+                            <br>
+                            <br>
                             Rin, a 17-year-old girl, lives inside a futuristic simulator in infinite,
                             beautiful loneliness. Each day, she awakens in virtual reality to create a world for
                             herself,
                             yet in real life, Rin's comatose body floats through the universe, forever trapped inside a
                             virtual simulation she will never wake up from...
                         </p>
-                    </div>
                 </div>
-                <div class="row p-5">
-                    <iframe width="560" height="615" src="https://www.youtube.com/embed/fzQ6gRAEoy0" class=""
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+
+                <div class="position-absolute p-5 ms-auto">
+                    <iframe
+                    id="shelter-vid"
+                    srcdoc="<style>
+                        * {
+                        padding: 0;
+                        margin: 0;
+                        overflow: hidden;
+                        }
+                        
+                        body, html {
+                          height: 100%;
+                        }
+                        
+                        img, svg {
+                          position: absolute;
+                          width: 100%;
+                          top: 0;
+                          bottom: 0;
+                          margin: auto;
+                        }
+                        
+                        .pl {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
+                          transition: all 250ms ease-in-out;
+                          width: 8%;
+                          margin-left: 45%
+                        }
+                        
+                        body:hover .pl {
+                          filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
+                          transform: scale(1.2);
+                        }
+
+
+                      </style>
+                      <a href='https://www.youtube.com/embed/fzQ6gRAEoy0?autoplay=1'>
+                        <img src='https://img.youtube.com/vi/fzQ6gRAEoy0/maxresdefault.jpg'>
+                        <img src='https://i.imgur.com/pgsdSOj.png' class='pl'>
+                      </a>
+                      "
+                      src="https://www.youtube.com/embed/fzQ6gRAEoy0" 
+                      title="Shelter Music Video"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen>
+                    </iframe>
                 </div>
-                <div class="row p-5 d-none d-md-block">
-                    <a href="https://anilist.co/anime/97731/Shelter" target="_blank"><img src="img/anilist.svg"
-                            width="50px"></a>
+
+                <div class="bg">
+                    <img src="img/shelter_bg.jpg" alt id="shelter">
                 </div>
-            </section>
+            </div>
 
             <div id="particles-js"></div>
             <section class="row" id='sao'>
-                <div class="col-sm-12 col-md-5">
+                <div class="col-sm-12 col-md-6 px-5">
                     <div id="sliderShow" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#sliderShow" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
+                        <div class="carousel-inner mx-auto">
                             <div class="carousel-item active">
                                 <img src="img/progressive.png" alt="cover">
                             </div>
@@ -73,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="col-7 text-right ps-5 d-none d-md-block position-relative">
+                <div class="col-6 text-right px-5 d-none d-md-block position-relative">
                     <h1>Sword Art Online</h1>
                     <h5>Progressive</h5>
                     <p class="text-grey">
@@ -118,7 +150,7 @@
                 </div>
             </section>
 
-        </div>
+        </main>
         <?php include 'footer.html'?>
     </div>
 
@@ -127,7 +159,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -22,6 +22,7 @@
   }
 
 body {
+    overflow-y: visible;
     background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -103,7 +104,7 @@ li {
     z-index: 500;
 }
 
-.active {
+.on {
     color: white;
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
     border-bottom: 2px solid rgb(195, 195, 195);
@@ -117,7 +118,7 @@ li {
 }
 
 .carousel-item img{
-    width: 100%;
+    height: 75vh;
 }
 
 .foot {
@@ -147,12 +148,13 @@ li {
     z-index: -10;
     top: 0;
     left: 0;
+
     background-image: url(../img/stars.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
+
 
 #logo {
     width: 80px;
@@ -162,9 +164,33 @@ li {
     width: 8rem;
 }
 
+#shelter{
+    width: 100vw;
+    height: auto;
+}
 
-#kaguya{
-    background-repeat: no-repeat;
+#shelter-vid {
+    display: block;
+    margin: 65% auto;
+    width: 55vw;
+    aspect-ratio: 16/9;
+}
+
+#shelter-info{
+    right: 5%;
+    bottom: 8%;
+}
+
+#shelter-info h1{
+    font-size: calc(1rem + 2vw);
+}
+
+#shelter-info h5{
+    font-size: calc(0.5rem + 1vw);
+}
+
+#shelter-info p{
+    font-size: calc(0.4rem + 0.5vw);
 }
 
 /* Scrollbar 0000000000000000000000000000000 */
