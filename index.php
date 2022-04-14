@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/starsil.svg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <title>A-1 Pictures | フライドポテト</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -36,6 +36,10 @@
                 <div class="position-absolute p-5 ms-auto">
                     <iframe
                     id="shelter-vid"
+                    src="https://www.youtube.com/embed/fzQ6gRAEoy0" 
+                    title="Shelter Music Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     srcdoc="<style>
                         * {
                         padding: 0;
@@ -74,10 +78,6 @@
                         <img src='https://i.imgur.com/pgsdSOj.png' class='pl'>
                       </a>
                       "
-                      src="https://www.youtube.com/embed/fzQ6gRAEoy0" 
-                      title="Shelter Music Video"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                       allowfullscreen>
                     </iframe>
                 </div>
