@@ -56,6 +56,8 @@ li {
     padding: 3px;
 }
 
+
+
 .btn-left {
     border: none;
     padding: 15px 32px;
@@ -108,10 +110,6 @@ li {
     border-bottom: 2px solid rgb(195, 195, 195);
 }
 
-.paimon {
-    width: 8rem;
-}
-
 .container {
     padding-left: 0;
     padding-right: 0;
@@ -119,13 +117,8 @@ li {
     margin-left: auto;
 }
 
-.copyright {
-    padding: 10px;
-    margin: auto 0;
-}
-
-.copyright span {
-    color: lightgrey;
+.foot {
+    border-top: white 3px solid;
 }
 
 .text-right{
@@ -133,15 +126,26 @@ li {
 }
 
 /* ID's */
+#particles-js canvas {
+    display: block;
+    opacity: 1;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
 
 #logo {
     width: 80px;
 }
 
-#moon{
-    background-image: url(../img/moon1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+#paimon {
+    width: 8rem;
 }
 
 #sao{
@@ -151,7 +155,7 @@ li {
     background-position: -90px 50px;
 }
 
-#airing{
+#kaguya{
     background-repeat: no-repeat;
 }
 
