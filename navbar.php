@@ -1,4 +1,7 @@
 <?php 
+
+// -Stephan NOTE NO IDEA What's going on here lol
+
     // gets the current URI, remove the left / and then everything after the / on the right
     $directory = explode('/',ltrim($_SERVER['REQUEST_URI'],'/'));
 

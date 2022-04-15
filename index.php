@@ -58,14 +58,14 @@
                         
                         .pl {
                           filter: drop-shadow(1px 1px 10px hsl(206.5, 70.7%, 8%));
-                          transition: all 250ms ease-in-out;
-                          width: 8%;
+                          transition: all 150ms ease-in-out;
+                          width: 7%;
                           margin-left: 45%
                         }
                         
                         body:hover .pl {
                           filter: drop-shadow(1px 1px 10px hsl(206.5, 0%, 10%));
-                          transform: scale(1.2);
+                          transform: scale(1.15);
                         }
 
 
@@ -102,13 +102,13 @@
                 </div>
 
                 <div class="col-6 text-right px-5 d-none d-md-block position-relative">
-                    <img src="img/progressive_logo.png" width="115%">
+                    <img src="img/progressive_logo.png" style="width: 75%; padding: 4rem 0;">
                     <p class="text-grey">
                         This is the story of a time before Lightning Flash and the Black Swordsman were known by those
                         names…
                         <br>
                         <br>
-                        Asuna Yuuki was a girl in the ninth grade who’d never had anything to do with online games when
+                        Asuna Yuuki was a girl in the ninth grade who'd never had anything to do with online games when
                         she accidentally put on the NerveGear that fateful day.
                         <br>
                         <br>
@@ -132,7 +132,7 @@
             </section>
 
             <section class="row bg-black" id='kaguya'>
-                <div class="col-7 p-5 d-none d-md-block position-relative">
+                <div class="col-6 p-5 d-none d-md-block position-relative">
                     <h1>Airing</h1>
                     <h5>Kaguya-sama: Love Is War: Ultra Romantic</h5>
                     <p class="text-white-50">
@@ -152,13 +152,13 @@
                     <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
                         target="_blank"><img src="img/anilist.svg" class="btn-left" width="120px"></a>
                 </div>
-                <div class="col-sm-12 col-md-5">
+                <div class="col-sm-12 col-md-6">
                     <img src="img/kaguyasama_s3.jpg" class="image float-end">
                 </div>
             </section>
 
         </main>
-        <?php include 'footer.html'?>
+        <?php include 'footer.php'?>
     </div>
 
     <script src="js/particles.js"></script>

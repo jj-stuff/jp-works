@@ -1,0 +1,48 @@
+<footer class="bg-black p-5 bg-opacity-50 blur">
+    <div class="row">
+        <div class="col-5 p-5">
+            <h1 class="m-auto" style="font-family: 'Open Sans', sans-serif; overflow: hidden;">
+                A-1 Pictures fan-page.
+            </h1>
+
+        </div>
+        <div class="col-7 d-flex p-5">
+            <!--start-->
+            <div class="Contacts col-md-4 col-sm-12 font">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Stephanjdai@gmail.com</li>
+                    <li><a href="mailto:Stephanjdai@gmail.com" class="text-capitalize">Mail</a></li>
+                </ul>
+            </div>
+            <div class="Socials col-md-4 col-sm-12">
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/jj._.jdai/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCRpW6CcJ_YAbz9ZK8PzcHlQ" target="_blank">YouTube</a>
+                    </li>
+                    <li><a href="https://webbutveckling.jarvgym.se/stephan/Project%7cGenshin-Star/"
+                            target="_blank">Website</a></li>
+                </ul>
+            </div>
+            <div class="Team col-md-4 col-sm-12">
+                <h3>Sponsor</h3>
+                <ul>
+                    <li>Örjan Reviews</li>
+                    <li><a href="https://webbutveckling.jarvgym.se/dennis/2022%20hemsida%20new/" target="_blank">goto site</a></li>
+                </ul>
+            </div>
+            <!--stop-->
+        </div>
+    </div>
+
+    <div class="d-flex p-4">
+        <div class="logo">
+            <img src="img/proud.jpeg" id='paimon' alt="logo">
+        </div>
+        <div class="mt-5 ps-3">
+            Site by JJ <br>
+            no-Copyright © 2022 <br>
+        </div>
+    </div>
+</footer>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 * {
     text-decoration: none !important;
@@ -7,8 +8,8 @@
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 :root {
@@ -23,7 +24,7 @@
 
 body {
     overflow-y: visible;
-    background-color: white;
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 150%;
@@ -38,6 +39,7 @@ h1 {
 section {
     padding: 150px 60px;
 }
+
 
 a {
     color: var(--link-before);
@@ -54,6 +56,13 @@ li {
     padding: 3px;
 }
 
+footer *{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+
+/* CLASSES */
 
 .btn-left {
     border: none;
@@ -96,7 +105,7 @@ li {
 .on {
     color: white;
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
-    border-bottom: 2px solid rgb(195, 195, 195);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.9);
     transform: scale(1.05);
     transition: opacity 500ms ease-in-out 0ms,
         transform 200ms ease-in-out 0ms;
@@ -113,10 +122,6 @@ li {
     height: 75vh;
 }
 
-.foot {
-    border-top: white 3px solid;
-}
-
 .text-grey{
     color:#888;
 }
@@ -125,7 +130,31 @@ li {
     text-align: right;
 }
 
+.title p{
+    padding: 5px 0;
+    font-size: large;
+}
+
+.media-card a img{
+    aspect-ratio: 11/16;
+    border-radius: 10px;
+}
+
+.media-card:hover > .title p{
+    transition: 250ms;
+    text-shadow: 0 0 5px white;
+}
+
+.media-card:hover {
+    transition: 250ms;
+    transform: scale(1.05);
+}
+
+
+
 /* ID's */
+
+
 #particles-js canvas {
     display: block;
     opacity: 1;
@@ -173,7 +202,7 @@ li {
 }
 
 #shelter-info h1{
-    font-size: calc(1rem + 2vw);
+    font-size: calc(2rem + 2vw);
 }
 
 #shelter-info h5{
@@ -189,7 +218,8 @@ li {
 }
 
 #kaguya{
-    border-top: solid 2px white; 
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
 }
 
 /* Scrollbar 0000000000000000000000000000000 */

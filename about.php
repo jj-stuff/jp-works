@@ -41,7 +41,7 @@
                         names…
                         <br>
                         <br>
-                        Asuna Yuuki was a girl in the ninth grade who’d never had anything to do with online games when
+                        Asuna Yuuki was a girl in the ninth grade who'd never had anything to do with online games when
                         she accidentally put on the NerveGear that fateful day.
                         <br>
                         <br>

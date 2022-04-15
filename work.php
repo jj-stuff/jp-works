@@ -10,88 +10,132 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background: url(img/3430.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: rgb(33, 33, 33);
+        }
+
+        main{
+            padding-top: 4rem;
+        }
+    </style>
 </head>
 
-<body>
+<body class="blur">
     <div class="overflow-hidden">
         <?php include 'navbar.php'?>
-        <main>
-            <div id="particles-js"></div>
-            <section class="row" id='sao'>
-                <div class="col-sm-12 col-md-6 px-5">
-                    <div id="sliderShow" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-inner mx-auto">
-                            <div class="carousel-item active">
-                                <img src="img/progressive.png" alt="cover">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/progressive2.png" alt="cover">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/progressive3.png" alt="cover">
-                            </div>
-                        </div>
-                    </div>
+        <main class='container bg-black bg-opacity-25'>
+            
+            <div class="row header ps-5 pt-5">
+                <h1 class="fw-normal">Animations</h1>
+            </div>
+
+            <!-- First Row -->
+            <section class="row p-5">
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/progressive-aria.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>Sword Art Online: Progressive - Hoshinaki Yoru no Aria</p>
+                    </a>
                 </div>
-
-                <div class="col-6 text-right px-5 d-none d-md-block position-relative">
-                    <img src="img/progressive_logo.png" width="115%">
-                    <p class="text-grey">
-                        This is the story of a time before Lightning Flash and the Black Swordsman were known by those
-                        names…
-                        <br>
-                        <br>
-                        Asuna Yuuki was a girl in the ninth grade who’d never had anything to do with online games when
-                        she accidentally put on the NerveGear that fateful day.
-                        <br>
-                        <br>
-                        The game master speaks.
-                        This may be a game, but it's not something you play.
-                        “Game Over” means you die in the real world.
-                        <br>
-                        <br>
-                        Hearing this, the players are sent into a state of confusion, and pandemonium reigns in the
-                        game. One of these players is Asuna. Despite not even knowing the rules of this new world, she
-                        sets out on her journey to the floating steel castle of Aincrad, its apex not yet visible.
-                        <br>
-                        <br>
-                        As she continues to live on in this world where death is always a step away, Asuna has a fateful
-                        encounter followed by a parting…
-
-                    </p>
-                    <a href="https://anilist.co/anime/124140/Sword-Art-Online-Progressive--Hoshinaki-Yoru-no-Aria/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-right" width="120px"></a>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/DeepNight.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Sword Art Online: Progressive - Kuraki Yuuyami no Scherzo 
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/kaguyasama_s3.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>Kaguya-sama wa Kokurasetai: Ultra Romantic</p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/alicization.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>Sword Art Online: Alicization - War of Underworld</p>
+                    </a>
                 </div>
             </section>
 
-            <section class="row bg-black" id='kaguya'>
-                <div class="col-7 p-5 d-none d-md-block position-relative">
-                    <h1>Airing</h1>
-                    <h5>Kaguya-sama: Love Is War: Ultra Romantic</h5>
-                    <p class="text-white-50">
-                        The third season of Kaguya-sama: Love Is War, titled
-                        , Kaguya-sama: Love Is War: Ultra Romantic, is a 2022 Japanese anime series, based
-                        on the manga
-                        series of the same title, written and illustrated by. It was announced on October 25, 2020
-                        for
-                        production
-                        during the "Kaguya-sama Wants To Tell You On Stage" special event. The season premiered on
-                        April
-                        9, 2022, with returning staff and cast members. The opening theme is "Giri Giri" by Masayuki
-                        Suzuki
-                        featuring Suu from Silent Siren, while the ending theme is
-                        "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
-                    </p>
-                    <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-left" width="120px"></a>
+            <!-- 2nd Row -->
+            <section class="row p-5">
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/erased.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Boku dake ga Inai Machi 
+                        </p>
+                    </a>
                 </div>
-                <div class="col-sm-12 col-md-5">
-                    <img src="img/kaguyasama_s3.jpg" class="image float-end">
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/shelter.png" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                           Shelter
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/your-lie.png" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Shigatsu wa Kimi no Uso 
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/86.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            86: Eighty Six 
+                        </p>
+                    </a>
                 </div>
             </section>
 
+            <!-- 3rd Row -->
+            <section class="row p-5">
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/darling.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Darling in the Franxx
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/fairy.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            FAIRY TAIL
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/anohana.png" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.
+                        </p>
+                    </a>
+                </div>
+                <div class="media-card col-sm-6 col-md-3">
+                    <a href=""><img src="img/how-to-raise-a-boring-girlfriend.jpg" alt class="w-100"></a>
+                    <a href="" class="title">
+                        <p>
+                            Saenai Heroine no Sodatekata 
+                        </p>
+                    </a>
+                </div>
+            </section>
         </main>
-        <?php include 'footer.html'?>
+        <?php include 'footer.php'?>
     </div>
 
     <script src="js/particles.js"></script>
