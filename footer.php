@@ -1,14 +1,14 @@
 <footer class="bg-black p-5 bg-opacity-50 blur">
     <div class="row">
-        <div class="col-5 p-5">
-            <h1 class="m-auto" style="font-family: 'Open Sans', sans-serif; overflow: hidden;">
+        <div class="col-md-5 col-sm-12 p-5">
+            <h1 class="m-auto">
                 A-1 Pictures fan-page.
             </h1>
 
         </div>
-        <div class="col-7 d-flex p-5">
+        <div class="col-md-7 col-sm-12 d-flex p-5 row">
             <!--start-->
-            <div class="Contacts col-md-4 col-sm-12 font">
+            <div class="Contacts col-md-4 col-sm-12">
                 <h3>Contact</h3>
                 <ul>
                     <li>Stephanjdai@gmail.com</li>
