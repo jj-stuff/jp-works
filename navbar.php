@@ -11,7 +11,7 @@
 
 <nav class="nav bg-black bg-opacity-50 blur">
     <div class="container">
-        <div class="row p-3">
+        <div class="row p-2">
             <a href="" class="col-sm-2 col-md-1">
                     <img src="img/A-1_White.svg" id='logo' alt="logo" class="navbar-brand d-none d-sm-inline m-0">
             </a>
