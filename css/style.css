@@ -43,7 +43,7 @@ section {
 
 a {
     color: var(--link-before);
-    font-size: calc(0.3rem + 0.5vw);
+    font-size: calc(0.5rem + 0.5vw);
 }
 
 a:hover{
@@ -51,6 +51,13 @@ a:hover{
     color: white;
     text-shadow: 0 0 5px white;
 }
+
+a:link, a:visited, a:active {
+    color: var(--link-before) !important;
+    text-decoration: none;
+}
+
+
 
 li {
     padding: 3px;
@@ -142,7 +149,7 @@ footer *{
 
 .media-card:hover > .title p{
     transition: 250ms;
-    text-shadow: 0 0 5px white;
+    text-shadow: 0 0 1px blanchedalmond;
 }
 
 .media-card:hover {
