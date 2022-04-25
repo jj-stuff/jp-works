@@ -236,7 +236,7 @@ footer *{
 /* Scrollbar 0000000000000000000000000000000 */
 
   ::-webkit-scrollbar{
-    width: 20px;
+    width: 10px;
   }
   
   ::-webkit-scrollbar-track {
