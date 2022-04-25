@@ -70,6 +70,10 @@ footer *{
 
 
 /* CLASSES */
+.place-center{
+    place-items: center;
+}
+
 
 .btn-left {
     border: none;
