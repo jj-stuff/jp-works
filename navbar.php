@@ -1,6 +1,5 @@
 <?php 
 
-    // gets the current URI, remove the left / and then everything after the / on the right
     $url = '//' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 ?>
