@@ -139,18 +139,28 @@
                         The third season of Kaguya-sama: Love Is War, titled
                         , Kaguya-sama: Love Is War: Ultra Romantic, is a 2022 Japanese anime series, based
                         on the manga
-                        series of the same title, written and illustrated by. It was announced on October 25, 2020
+                        series of the same title, written and illustrated by.
+                        <br>
+                        <br>
+                        It was announced on October 25, 2020
                         for
                         production
-                        during the "Kaguya-sama Wants To Tell You On Stage" special event. The season premiered on
+                        during the "Kaguya-sama Wants To Tell You On Stage" special event.
+                        The season premiered on
                         April
-                        9, 2022, with returning staff and cast members. The opening theme is "Giri Giri" by Masayuki
+                        9, 2022, with returning staff and cast members.
+                        <br>
+                        <br>
+                        The opening theme is "Giri Giri" by Masayuki
                         Suzuki
                         featuring Suu from Silent Siren, while the ending theme is
                         "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
                     </p>
-                    <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-left" width="120px"></a>
+                    <div class="pt-5">
+                        <a href="mom" class="btn btn-outline-secondary btn-lg">
+                            Anilist
+                        </a>
+                    </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <img src="img/kaguyasama_s3.jpg" class="image float-end">
