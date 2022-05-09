@@ -11,8 +11,8 @@
                     <img src="img/A-1_White.svg" id='logo' alt="logo" class="navbar-brand d-none d-sm-inline m-0">
             </a>
             <ul class="nav-links my-auto d-flex col-sm-10 col-md-11">
-                <li class="nav-item "><a href="index" class="nav-link <?php if (strpos($url,'index') == true) { echo ' on'; } ?>">Home</a></li>
-                <li class="nav-item"><a href="work" class="nav-link <?php if (strpos($url,'work') !== false) { echo ' on'; } ?>">Works</a></li>
+                <li class="nav-item "><a href="home" class="nav-link <?php if (strpos($url,'home') == true) { echo ' on'; } ?>">Home</a></li>
+                <li class="nav-item"><a href="works" class="nav-link <?php if (strpos($url,'works') !== false) { echo ' on'; } ?>">Works</a></li>
                 <li class="nav-item ms-auto"><a href="about" class="nav-link <?php if (strpos($url,'about') == true) { echo ' on'; } ?>">About Me</a></li>
             </ul>
         </div>

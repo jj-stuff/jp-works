@@ -9,7 +9,7 @@
     <title>A-1 Pictures | フライドポテト</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <style>
         body{
             background: url(img/clouds.webp);
@@ -17,9 +17,9 @@
             background-attachment: fixed;
             background-color: rgb(33, 33, 33);
         }
-
-        main{
-            padding-top: 4rem;
+        
+        .wrap{
+            padding-top: calc(5.6rem - 3px);
         }
     </style>
 </head>
@@ -27,6 +27,7 @@
 <body class="blur">
     <div class="overflow-hidden">
         <?php include 'navbar.php'?>
+        <div class="wrap">
         <main class='container bg-black bg-opacity-25'>
             
             <div class="row header ps-5 pt-5">
@@ -106,6 +107,7 @@
                 </div>
             </section>
         </main>
+        </div>
         <?php include 'footer.php'?>
     </div>
 
