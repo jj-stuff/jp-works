@@ -148,7 +148,7 @@ footer *{
 
 .media-card a img{
     aspect-ratio: 11/16;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .media-card:hover > .title p{

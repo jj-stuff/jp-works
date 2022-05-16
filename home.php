@@ -126,8 +126,11 @@
                         encounter followed by a parting…
 
                     </p>
-                    <a href="https://anilist.co/anime/124140/Sword-Art-Online-Progressive--Hoshinaki-Yoru-no-Aria/"
-                        target="_blank"><img src="img/anilist.svg" class="btn-right" width="120px"></a>
+                    <div class="pt-5">
+                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/" class="btn btn-outline-secondary btn-lg">
+                            Anilist
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -157,7 +160,7 @@
                         "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
                     </p>
                     <div class="pt-5">
-                        <a href="mom" class="btn btn-outline-secondary btn-lg">
+                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/" class="btn btn-outline-secondary btn-lg">
                             Anilist
                         </a>
                     </div>
