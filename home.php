@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <?php
+    include('config.php');
+    ?>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +13,13 @@
     <title>A-1 Pictures | フライドポテト</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo BASE;?>css/style.css" />
 </head>
 
 <body>
+
     <div class="overflow-hidden">
-        <?php include 'navbar.php'?>
+        <?php include  __DIR__ . "/includes/navbar.php"; ?>
         <main>
             <div class="row position-relative overflow-hidden">
                 <div class="col-5 position-absolute text-right ps-5 d-none d-md-block" id="shelter-info">
@@ -127,7 +132,8 @@
 
                     </p>
                     <div class="pt-5">
-                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/" class="btn btn-outline-secondary btn-lg">
+                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
+                            class="btn btn-outline-secondary btn-lg">
                             Anilist
                         </a>
                     </div>
@@ -160,7 +166,8 @@
                         "Heart wa Oteage" ("My Heart Does Not Know What to Do") by Airi Suzuki.
                     </p>
                     <div class="pt-5">
-                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/" class="btn btn-outline-secondary btn-lg">
+                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
+                            class="btn btn-outline-secondary btn-lg">
                             Anilist
                         </a>
                     </div>

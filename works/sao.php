@@ -13,13 +13,16 @@
 </head>
 
 <body>
+
     <div class="overflow-hidden">
-        <?php include 'navbar.php'?>
+
+    <?php include 'navbar.php'?>
+
         <main>
             <section>
                 <div class="row">
                     <div class="col-12 ">
-                    <p>Arvid Gay</p>
+                        <p></p>
                     </div>
                 </div>
             </section>
