@@ -4,7 +4,7 @@
 
 ?>
 
-<nav class="nav bg-black bg-opacity-50 blur">
+<nav class="nav bg-opacity-50 blur" id="navbar">
     <div class="container">
         <div class="row p-2">
             <a href="<?php echo BASE;?>home" class="col-sm-2 col-md-1">
@@ -17,3 +17,4 @@
             </ul>
         </div>
 </nav>
+

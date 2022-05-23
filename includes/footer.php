@@ -38,7 +38,7 @@
 
     <div class="d-flex p-4">
         <div class="logo">
-            <img src="img/proud.jpeg" id='paimon' alt="logo">
+            <img src="<?php echo BASE;?>img/proud.jpeg" id='paimon' alt="logo">
         </div>
         <div class="mt-5 ps-3">
             Site by JJ <br>

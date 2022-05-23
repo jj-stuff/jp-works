@@ -13,13 +13,13 @@
     <title>A-1 Pictures | フライドポテト</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php echo BASE;?>css/style.css" />
+    <link rel="stylesheet" href="<?php echo BASE;?>css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
 </head>
 
 <body>
 
     <div class="overflow-hidden">
-        <?php include  __DIR__ . "/includes/navbar.php"; ?>
+        <?php include "includes/navbar.php"; ?>
         <main>
             <div class="row position-relative overflow-hidden">
                 <div class="col-5 position-absolute text-right ps-5 d-none d-md-block" id="shelter-info">
@@ -178,7 +178,7 @@
             </section>
 
         </main>
-        <?php include 'footer.php'?>
+        <?php include "includes/footer.php"; ?>
     </div>
 
     <script src="js/particles.js"></script>

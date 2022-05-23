@@ -63,13 +63,22 @@ li {
     padding: 3px;
 }
 
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 footer *{
     font-family: 'Open Sans', sans-serif;
     overflow: hidden;
 }
 
-
 /* CLASSES */
+
+
 .place-center{
     place-items: center;
 }
@@ -106,20 +115,11 @@ footer *{
     text-shadow: 0 0 5px white;
 }
 
-.nav{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 500;
-}
-
 .on {
     color: white;
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
     border-bottom: 3px solid rgba(255, 255, 255, 0.9);
     transform: scale(1.05);
-    transition: opacity 500ms ease-in-out 0ms,
-        transform 200ms ease-in-out 0ms;
 }
 
 .container {
@@ -164,6 +164,13 @@ footer *{
 
 
 /* ID's */
+#navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 500;
+    transition: all 0.3s ease-in-out;
+}
 
 
 #particles-js canvas {
