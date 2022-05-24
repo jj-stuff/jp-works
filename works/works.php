@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo BASE;?>css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
+    <link rel="stylesheet" href="<?php echo BASE;?>css/radio.css">
     <style>
         body {
             background: url(../img/bg_lyrics.jpeg);
@@ -36,17 +37,30 @@
                 <div class="header ps-5">
                     <h1 class="fw-bold p-5">Works</h1>
                 </div>
-            <div class="content-left col-2 p-5">
-                <div id="year">
-                    <h3 class="fw-bold">Sort By</h3>
-                    <label for="workyear" class='radio'>
-                        <input type="radio" name="year" id="year_input">
-                        <div class="radio_radio"></div>
-                    </label>
+            <div class="content-left d-none d-md-flex col-md-2 ps-5 pt-5">
+                <div class='sortfield'>
+                    <h3 class="fw-bold fs-2">Sort By</h3>
+                    <form>
+                        <label for="year" class='radio'>
+                            <input type="radio" name="sort" id='year' class="radio__input">
+                            <div class="radio__radio"></div>
+                            YEAR
+                        </label>
+                        <label for="name" class='radio'>
+                            <input type="radio" name="sort" id='name' class="radio__input">
+                            <div class="radio__radio"></div>
+                            NAME
+                        </label>
+                        <label for="pop" class='radio'>
+                            <input type="radio" name="sort" id='pop' class="radio__input">
+                            <div class="radio__radio"></div>
+                            POPULARITY
+                        </label>
+                    </form>
                 </div>
             </div>
 
-            <aside class="content-right col-10">
+            <aside class="content-right col-md-10 col-sm-12">
                 <!-- First Row -->
                 <section class="row p-5">
                     <div class="media-card col-sm-6 col-md-3">
