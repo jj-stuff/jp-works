@@ -13,27 +13,40 @@
     <link rel="stylesheet" href="<?php echo BASE;?>css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
     <style>
         body {
-            background: url(../img/clouds.webp);
+            background: url(../img/bg_lyrics.jpeg);
             background-size: cover;
             background-attachment: fixed;
             background-color: rgb(33, 33, 33);
         }
-
+        
+        nav{
+            display: block;
+            position: relative !important;
+        }
     </style>
 </head>
 
 <body class="blur">
     <div class="overflow-hidden">
 
-    <?php include "../includes/navbar.php"; ?>
-        
-        <div class="wrap">
-            <main class='container bg-black bg-opacity-25'>
+        <?php include "../includes/navbar.php" ?>
 
-                <div class="row header ps-5 pt-5">
-                    <h1 class="fw-normal pt-5">Animations</h1>
+        <main class='container' >
+            <article class="row">
+                <div class="header ps-5">
+                    <h1 class="fw-bold p-5">Works</h1>
                 </div>
+            <div class="content-left col-2 p-5">
+                <div id="year">
+                    <h3 class="fw-bold">Sort By</h3>
+                    <label for="workyear" class='radio'>
+                        <input type="radio" name="year" id="year_input">
+                        <div class="radio_radio"></div>
+                    </label>
+                </div>
+            </div>
 
+            <aside class="content-right col-10">
                 <!-- First Row -->
                 <section class="row p-5">
                     <div class="media-card col-sm-6 col-md-3">
@@ -117,9 +130,12 @@
                         </a>
                     </div>
                 </section>
-            </main>
-        </div>
-        <?php include 'footer.php'?>
+            </aside>
+        </article>
+
+        </main>
+
+        <?php include '../includes/footer.php'?>
     </div>
 
     <script src="js/particles.js"></script>

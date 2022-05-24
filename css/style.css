@@ -14,6 +14,7 @@
 
 :root {
     --link-before: rgb(221, 221, 221);
+    --dark-background: rgba(0, 0, 0, 0.3);
 }
 
 @supports (backdrop-filter: blur(0.5rem)) {
@@ -57,14 +58,12 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
-
-
 li {
     padding: 3px;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--dark-background);
 }
 
 nav:hover {
@@ -76,8 +75,17 @@ footer *{
     overflow: hidden;
 }
 
-/* CLASSES */
+article {
+    background-color: var(--dark-background);
+    border-top: grey 2px solid;
+    border-bottom: grey 2px solid;
 
+}
+
+/* CLASSES */
+.header{
+    font-size: large;
+}
 
 .place-center{
     place-items: center;
@@ -238,6 +246,8 @@ footer *{
 #kaguya{
     border-top: solid 2px white;
     border-bottom: solid 2px white;
+    background-image: url(../img/bg_staff.jpeg);
+    background-size: cover;
 }
 
 /* Scrollbar 0000000000000000000000000000000 */

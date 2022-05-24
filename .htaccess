@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteCond %{REQUEST_URI} !/$
 RewriteRule ^(.*)$ $1\.php
-DirectoryIndex home.php index.php
+DirectoryIndex home.php works.php
