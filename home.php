@@ -132,7 +132,7 @@
 
                     </p>
                     <div class="pt-5">
-                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
+                        <a href="https://anilist.co/anime/124140/Sword-Art-Online-Progressive--Hoshinaki-Yoru-no-Aria/"
                             class="btn btn-outline-secondary btn-lg">
                             Anilist
                         </a>
@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <img src="img/kaguyasama_s3.jpg" class="image float-end">
+                    <img src="img/kaguyasama_s3.jpg" class="image float-end p-5">
                 </div>
             </section>
 

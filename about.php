@@ -12,15 +12,22 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo BASE;?>css/style.css?v=<?php echo filemtime('css/style.css'); ?>" />
 </head>
+<style>
+    body {
+        background-image: url(img/bg_introduction.jpeg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
 
 <body>
     <div class="overflow-hidden">
-        <?php include 'includes/navbar.php'?>
+    <?php include 'includes/navbar.php'?>
         <main>
             <section>
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-center">
-                        <img src="https://i.kym-cdn.com/entries/icons/facebook/000/035/644/juancover.jpg" alt="" class="">
+                    <div class="col-12 d-flex justify-content-center p-5">
+                        <img src="https://i.kym-cdn.com/entries/icons/facebook/000/035/644/juancover.jpg" alt="" class="p-5">
                     </div>
                 </div>
             </section>
@@ -28,6 +35,19 @@
     </div>
     
     <?php include 'includes/footer.php' ?>
+
+    <script>
+    var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-150px";
+          }
+          prevScrollpos = currentScrollPos;
+        };
+    </script>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

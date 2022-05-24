@@ -156,7 +156,7 @@ article {
 
 .media-card a img{
     aspect-ratio: 11/16;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .media-card:hover > .title p{
