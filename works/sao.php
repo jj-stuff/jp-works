@@ -77,7 +77,7 @@
             <header class="px-5 py-4">
                 <div class="row">
                     <p class='col-md-3 col-sm-12'>MOVIE | 2022 AUTUMN</p>
-                    <a class="col-9 d-none d-sm-block line"></a>
+                    <a class="col-9 d-none d-md-block line"></a>
                 </div>
                 <div class="row">
                     <div class="title text-center">
@@ -86,7 +86,7 @@
                 </div>
             </header>
             <!-- buttons -->
-            <div class="row">
+            <div class="row d-none d-md-block">
                 <div class="col-12 text-end px-5 py-3">
                     <button class="btn-success btn">Indrotucton</button>
                     <button class="btn-primary btn">Story</button>
@@ -98,7 +98,7 @@
                 <div class="col-sm-12 col-md-6 cover-left">
                     <img src="../img/DeepNight.jpg" width="100%" height="100%">
                 </div>
-                <div class="col-6 cover-right p-5 d-none d-sm-block blur">
+                <div class="col-6 cover-right p-5 d-none d-md-block blur">
                     <p class="w-text">
                         <h3 class="w-title">STORY</h3>
                         This is the story of a time before Lightning Flash and the Black Swordsman were known by those names… 

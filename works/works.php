@@ -24,6 +24,14 @@
             display: block;
             position: relative !important;
         }
+
+        header h1{
+            font-size: 3.5rem;
+        }
+
+        .sortfield{
+            border: 2px whitesmoke solid;
+        }
     </style>
 </head>
 
@@ -34,13 +42,13 @@
 
         <main class='container' >
             <article class="row">
-                <div class="header ps-5">
+                <header class="ps-5">
                     <h1 class="fw-bold p-5">Works</h1>
-                </div>
+                </header>
             <div class="content-left d-none d-md-flex col-md-2 ps-5 pt-5">
-                <div class='sortfield'>
-                    <h3 class="fw-bold fs-2">Sort By</h3>
-                    <form>
+                <div class='filters'>
+                    <form class="sortfield p-2">
+                        <h3>Sort By</h3>
                         <label for="year" class='radio'>
                             <input type="radio" name="sort" id='year' class="radio__input">
                             <div class="radio__radio"></div>
