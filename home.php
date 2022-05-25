@@ -173,7 +173,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <img src="img/kaguyasama_s3.jpg" class="image float-end p-5">
+                    <img src="img/kaguyasama_s3.jpg" class="image float-end p-2">
                 </div>
             </section>
 
