@@ -1,5 +1,5 @@
 function textswitch(evt, textType) {
-    // Declare all variables
+    // Declare all variables all from w3schools
     var i, tabcontent, tab_btn;
   
     // Get all elements with class="tabcontent" and hide them
@@ -17,4 +17,9 @@ function textswitch(evt, textType) {
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(textType).style.display = "block";
     evt.currentTarget.className += " active";
+
+
   }
+
+      // Auto click on the intro first for default ez fix lol
+      document.getElementById("defualt").click();

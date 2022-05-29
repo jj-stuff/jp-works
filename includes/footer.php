@@ -6,7 +6,7 @@
             </h1>
 
         </div>
-        <div class="col-md-7 col-sm-12 d-flex p-5 row">
+        <div class="col-md-7 col-sm-12 d-flex p-5 ps-2 row">
             <!--start-->
             <div class="Contacts col-md-4 col-sm-12">
                 <h3>Contact</h3>

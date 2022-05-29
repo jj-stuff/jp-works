@@ -12,12 +12,18 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css?v=<?php echo filemtime('../css/style.css'); ?>" />
     <link rel="stylesheet" href="../css/radio.css">
-    <link rel="stylesheet" href="../css/info.css">
+    <link rel="stylesheet" href="../css/works.css">
 </head>
+
+<style>
+    .c__title{
+        font-size: 1.6rem;
+
+    }
+</style>
 
 
 <body class="blur">
-    <div class="overflow-hidden">
         <?php include "../includes/navbar.php" ?>
         <main class="container">
             <!-- header -->
@@ -35,9 +41,9 @@
             <!-- buttons -->
             <div class="row d-none d-md-block">
                 <div class="col-12 text-end px-5 py-3 tab">
-                    <button class="btn-success btn tab_btn" onclick="textswitch(event, 'intro')">Indrotucton</button>
-                    <button class="btn-primary btn tab_btn" onclick="textswitch(event, 'story')">Story</button>
-                    <button class="btn-danger btn tab_btn" onclick="textswitch(event, 'char')">Characters</button>
+                    <button class="btn tab_btn" onclick="textswitch(event, 'intro')" id="defualt">Indrotucton</button>
+                    <button class="btn tab_btn" onclick="textswitch(event, 'story')">Story</button>
+                    <button class="btn tab_btn" onclick="textswitch(event, 'char')">Characters</button>
                 </div>
             </div>
             <!-- content/cover/img -->
@@ -46,30 +52,6 @@
                     <img src="../img/DeepNight.jpg" width="100%" height="100%">
                 </div>
                 <div class="col-6 cover-right p-5 d-none d-md-block blur">
-                    <div class="tabcontent" id="story">
-                        <p>
-                            <h3 class="title">STORY</h3>
-                            This is the story of a time before Lightning Flash and the Black Swordsman were known by
-                            those names…
-                            <br><br>
-                            Asuna Yuuki was a girl in the ninth grade who'd never had anything to do with online games
-                            when she accidentally put on the NerveGear that fateful day.<br><br>
-                            The game master speaks.
-                            This may be a game, but it's not something you play.
-                            “Game Over” means you die in the real world.
-                            <br><br>
-                            Hearing this, the players are sent into a state of confusion, and pandemonium reigns in the
-                            game. One of these players is Asuna. Despite not even knowing the rules of this new world,
-                            she sets out on her journey to the floating steel castle of Aincrad, its apex not yet
-                            visible.
-                            <br><br>
-                            As she continues to live on in this world where death is always a step away, Asuna has a
-                            fateful encounter followed by a parting…
-                            <br><br>
-                            Despite being at the mercy of this strange reality, she fights on valiantly until someone
-                            appears before her: the solitary swordsman, Kirito…
-                        </p>
-                    </div>
                     <div class="tabcontent" id="intro">
                         <p>
                             <h3 class="title">INTRODUCTION</h3>
@@ -99,6 +81,30 @@
                             will soon be released in movie theaters.
                         </p>
                     </div>
+                    <div class="tabcontent" id="story">
+                        <p>
+                            <h3 class="title">STORY</h3>
+                            This is the story of a time before Lightning Flash and the Black Swordsman were known by
+                            those names…
+                            <br><br>
+                            Asuna Yuuki was a girl in the ninth grade who'd never had anything to do with online games
+                            when she accidentally put on the NerveGear that fateful day.<br><br>
+                            The game master speaks.
+                            This may be a game, but it's not something you play.
+                            “Game Over” means you die in the real world.
+                            <br><br>
+                            Hearing this, the players are sent into a state of confusion, and pandemonium reigns in the
+                            game. One of these players is Asuna. Despite not even knowing the rules of this new world,
+                            she sets out on her journey to the floating steel castle of Aincrad, its apex not yet
+                            visible.
+                            <br><br>
+                            As she continues to live on in this world where death is always a step away, Asuna has a
+                            fateful encounter followed by a parting…
+                            <br><br>
+                            Despite being at the mercy of this strange reality, she fights on valiantly until someone
+                            appears before her: the solitary swordsman, Kirito…
+                        </p>
+                    </div>
                     <div class="tabcontent" id="char">
                         <p>
                             <h3 class="title">CHARACTERS</h3>
@@ -125,9 +131,36 @@
                     </div>
                 </div>
             </div>
+
+            <!-- staff -->
+            <div class="p-5 row">
+                <!-- names -->
+                <div class="row">
+                    <div class="col-6">
+                        <b class="c__title">STAFF</b>
+                        <p>
+                            Written by. Reki Kawahara(Dengeki Bunko) <br>
+                            Original Illustration / Character Design Concept. abec. <br>
+                            Director. Manabu Ono. <br>
+                            Assistant Director. Takashi Sakuma. <br>
+                            Character Design. Shingo Adachi. Go Suzuki.  <br>
+                            Chief Animation Directors. Go Suzuki. Yumiko Yamamoto.  <br>
+                            Prop Design. Asami Hayakawa. Kiminori Ito. <br>
+                            Monster Design. Toshiya Kouno. <br>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <b class="c__title">CAST</b>
+                        <p>
+                            Kirito Kirigaya Kazuto <br>
+                            Asuna Asuna Yuuiki
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
         <?php include '../includes/footer.php'?>
-    </div>
+
 
 
 
