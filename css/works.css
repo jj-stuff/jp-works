@@ -23,6 +23,14 @@ nav{
     margin-top: 9px;
 }
 
+.youtube{
+    text-align: center;
+}
+
+.youtube iframe{
+    width: 65vw;
+    aspect-ratio: 560/315;
+}
 
 .cover-right{
     border: var(--border-config);
@@ -80,7 +88,3 @@ nav{
     text-shadow: 0 0 5px var(--white-half);
 }
 
-.btn:focus,.btn:active {
-    outline: none !important;
-
-}

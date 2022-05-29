@@ -85,6 +85,11 @@ article {
 
 /* CLASSES */
 
+.btn:focus,.btn:active {
+    outline: none !important;
+}
+
+
 .nav-link{
     color: var(--link-before);
 }
