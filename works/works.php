@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
-    <title><?php echo TitleWork ?></title>
+    <title>WORKS<?php echo TITLE ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css?v=<?php echo filemtime('../css/style.css'); ?>" />
@@ -72,8 +72,8 @@
                 <!-- First Row -->
                 <section class="row p-5">
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="sao"><img src="../img/DeepNight.jpg" alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/140999/Sword-Art-Online-Progressive--Kuraki-Yuuyami-no-Scherzo/"
+                        <a href="saps"><img src="../img/DeepNight.jpg" alt class="w-100"></a>
+                        <a href="saps"
                             class="title">
                             <p>
                                 Sword Art Online: Progressive
@@ -82,17 +82,17 @@
                     </div>
 
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/100182/Sword-Art-Online-Alicization/"><img
+                        <a href="saps"><img
                                 src="../img/alicization.jpg" alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/100182/Sword-Art-Online-Alicization/" class="title">
+                        <a href="saps" class="title">
                             <p>Sword Art Online: Alicization </p>
                         </a>
                     </div>
 
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/20665/Shigatsu-wa-Kimi-no-Uso/"><img src="../img/your-lie.png"
+                        <a href="kimiuso"><img src="../img/your-lie.png"
                                 alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/20665/Shigatsu-wa-Kimi-no-Uso/" class="title">
+                        <a href="kimiuso" class="title">
                             <p>
                                 Shigatsu wa Kimi no Uso
                             </p>
@@ -100,9 +100,9 @@
                     </div>
 
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"><img
+                        <a href="kg3"><img
                                 src="../img/kaguyasama_s3.jpg" alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/125367/Kaguyasama-wa-Kokurasetai-Ultra-Romantic/"
+                        <a href="kg3"
                             class="title">
                             <p>Kaguya-sama wa Kokurasetai: Ultra Romantic</p>
                         </a>
@@ -112,18 +112,18 @@
                 <!-- 2nd Row -->
                 <section class="row p-5">
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/21234/Boku-dake-ga-Inai-Machi/"><img src="../img/erased.jpg"
+                        <a href="bokumachi"><img src="../img/erased.jpg"
                                 alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/21234/Boku-dake-ga-Inai-Machi/" class="title">
+                        <a href="bokumachi" class="title">
                             <p>
                                 Boku dake ga Inai Machi
                             </p>
                         </a>
                     </div>
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/97731/Shelter/"><img src="../img/shelter.png" alt
+                        <a href="shelter"><img src="../img/shelter.png" alt
                                 class="w-100"></a>
-                        <a href="https://anilist.co/anime/97731/Shelter/" class="title">
+                        <a href="shelter" class="title">
                             <p>
                                 Shelter
                             </p>
@@ -132,9 +132,9 @@
 
                     <div class="media-card col-sm-6 col-md-3">
                         <a
-                            href="https://anilist.co/anime/9989/Ano-Hi-Mita-Hana-no-Namae-wo-Bokutachi-wa-Mada-Shiranai/"><img
+                            href="anohanna"><img
                                 src="../img/anohana.png" alt class="w-100"></a>
-                        <a href="https://anilist.co/anime/9989/Ano-Hi-Mita-Hana-no-Namae-wo-Bokutachi-wa-Mada-Shiranai/"
+                        <a href="anohanna"
                             class="title">
                             <p>
                                 Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.
@@ -143,9 +143,9 @@
                     </div>
 
                     <div class="media-card col-sm-6 col-md-3">
-                        <a href="https://anilist.co/anime/116589/86-Eighty-Six/"><img src="../img/86.jpg" alt
+                        <a href="86"><img src="../img/86.jpg" alt
                                 class="w-100"></a>
-                        <a href="https://anilist.co/anime/116589/86-Eighty-Six/" class="title">
+                        <a href="86" class="title">
                             <p>
                                 86: Eighty Six
                             </p>
