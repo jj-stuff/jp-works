@@ -12,7 +12,7 @@
             </a>
             <ul class="nav-links my-auto d-flex col-sm-10 col-md-11">
                 <li class="nav-item "><a href="<?php echo BASE;?>home" class="nav-link <?php if (strpos($url,'home') == true) { echo ' on'; }  ?>">Home</a></li>
-                <li class="nav-item"><a href="<?php echo BASE;?>works" class="nav-link <?php if (strpos($url,'works') == true) { echo ' on'; } ?>">Works</a></li>
+                <li class="nav-item"><a href="<?php echo BASE;?>works" class="nav-link <?php if (strpos($url,'works/') == true) { echo ' on'; } ?>">Works</a></li>
                 <li class="nav-item ms-auto"><a href="<?php echo BASE;?>about" class="nav-link <?php if (strpos($url,'about') == true) { echo ' on'; } ?>">About Me</a></li>
             </ul>
         </div>

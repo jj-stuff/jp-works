@@ -41,9 +41,12 @@ nav{
     padding: 0px;
 }
 
+.credits, .tabcontent p, .active, .btn:hover{
+    color: white !important;
+}
+
 .credits{
     font-size: 0.8em;
-    color: whitesmoke;
 }
 
 .tabcontent p{
@@ -51,7 +54,6 @@ nav{
     font-weight: 400;
     font-size: 1rem;
     word-wrap: break-word;
-    color: #eaeaea;
     text-align: center;
     font-family: Motiva;
 }
@@ -83,11 +85,9 @@ nav{
 
 .btn:hover{
     box-shadow: inset 6.5em 0 0 0 var(--white-half);
-    color: white;
 }
 
 .active{
-    color: white !important;
     border: white 1px solid !important;
     box-shadow: none !important;
     text-shadow: 0 0 5px var(--white-half);
