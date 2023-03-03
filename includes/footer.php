@@ -18,18 +18,17 @@
             <div class="Socials col-md-4 col-sm-12">
                 <h3>Socials</h3>
                 <ul>
-                    <li><a href="https://www.instagram.com/jj._.jdai/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.instagram.com/jj._.aaaa/" target="_blank">Instagram</a></li>
                     <li><a href="https://www.youtube.com/channel/UCRpW6CcJ_YAbz9ZK8PzcHlQ" target="_blank">YouTube</a>
                     </li>
-                    <li><a href="https://webbutveckling.jarvgym.se/stephan/Project%7cGenshin-Star/"
-                            target="_blank">Website</a></li>
+                    <li><a href="https://github.com/jj-stuff"></a></li>
                 </ul>
             </div>
             <div class="Team col-md-4 col-sm-12">
                 <h3>Sponsor</h3>
                 <ul>
-                    <li>Örjan Reviews</li>
-                    <li><a href="https://webbutveckling.jarvgym.se/dennis/2022%20hemsida%20new/" target="_blank">goto site</a></li>
+                    <li>Örjan Reviews <br>
+                    (Website Down)</li>
                 </ul>
             </div>
             <!--stop-->
