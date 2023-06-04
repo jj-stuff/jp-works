@@ -27,7 +27,7 @@
             <div class="Team col-md-4 col-sm-12">
                 <h3>n 3Ʌ07 I</h3>
                 <ul>
-                    <li>Milan <br>
+                    <li>Rosemre <br>
                     143</li>
                 </ul>
             </div>
