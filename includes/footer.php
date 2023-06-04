@@ -40,7 +40,7 @@
             <img src="<?php echo BASE;?>img/proud.jpeg" id='paimon' alt="logo">
         </div>
         <div class="mt-5 ps-3">
-            Site by JJ <br>
+            Site by JJ-stuff <br>
             no-Copyright © 2022 <br>
         </div>
     </div>
