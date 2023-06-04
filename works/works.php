@@ -45,6 +45,7 @@
                 <header class="ps-5">
                     <h1 class="fw-bold p-5">Works</h1>
                 </header>
+            <div class="content-left d-none d-md-flex col-md-2 ps-5 pt-5">
                 <div class='filters'>
                     <form class="sortfield p-2">
                         <h3>Sort By</h3>
