@@ -45,26 +45,7 @@
                 <header class="ps-5">
                     <h1 class="fw-bold p-5">Works</h1>
                 </header>
-                <div class='filters'>
-                    <form class="sortfield p-2">
-                        <h3>Sort By</h3>
-                        <label for="year" class='radio'>
-                            <input type="radio" name="sort" id='year' class="radio__input">
-                            <div class="radio__radio"></div>
-                            YEAR
-                        </label>
-                        <label for="name" class='radio'>
-                            <input type="radio" name="sort" id='name' class="radio__input">
-                            <div class="radio__radio"></div>
-                            NAME
-                        </label>
-                        <label for="pop" class='radio'>
-                            <input type="radio" name="sort" id='pop' class="radio__input">
-                            <div class="radio__radio"></div>
-                            POPULARITY
-                        </label>
-                    </form>
-                </div>
+            <div class="content-left d-none d-md-flex col-md-2 ps-5 pt-5">
             </div>
 
             <aside class="content-right col-md-10 col-sm-12">
