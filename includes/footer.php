@@ -25,10 +25,10 @@
                 </ul>
             </div>
             <div class="Team col-md-4 col-sm-12">
-                <h3>Sponsor</h3>
+                <h3>n 3Ʌ07 I</h3>
                 <ul>
-                    <li>Örjan Reviews <br>
-                    (Website Down)</li>
+                    <li>Milan <br>
+                    143</li>
                 </ul>
             </div>
             <!--stop-->
